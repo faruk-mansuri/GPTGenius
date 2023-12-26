@@ -17,7 +17,10 @@ const ThemeToggle = () => {
   };
 
   return (
-    <button className='btn btn-sm btn-outline ' onClick={toggleTheme}>
+    <button
+      className='btn btn-sm cursor-pointer btn-outline '
+      onClick={toggleTheme}
+    >
       {theme === themes.winter ? (
         <BsMoonFill className='h-4 w-4 ' />
       ) : (
